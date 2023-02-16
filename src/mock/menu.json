@@ -1,0 +1,375 @@
+{
+    "code": 0,
+    "data": [
+        {
+            "id": 38,
+            "name": "商品",
+            "type": 1,
+            "url": "/layout/goods",
+            "icon": "el-icon-monitor",
+            "sort": 1,
+            "children": [
+                {
+                    "id": 39,
+                    "url": "/layout/goods/goodsList",
+                    "name": "商品列表",
+                    "sort": 106,
+                    "type": 2,
+                    "children": null,
+                    "parentId": 38
+                },
+                {
+                    "id": 40,
+                    "url": "/layout/goods/addGoods",
+                    "name": "商品添加",
+                    "sort": 107,
+                    "type": 2,
+                    "children": null,
+                    "parentId": 38
+                },
+                {
+                    "id": 42,
+                    "url": "/layout/goods/addCategory",
+                    "name": "商品分类",
+                    "sort": 108,
+                    "type": 2,
+                    "children": null,
+                    "parentId": 38
+                },
+                {
+                    "id": 43,
+                    "url": "/layout/goods/goodsBrands",
+                    "name": "品牌管理",
+                    "sort": 109,
+                    "type": 2,
+                    "children": null,
+                    "parentId": 38
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "系统管理",
+            "type": 1,
+            "url": "/layout/system",
+            "icon": "el-icon-setting",
+            "sort": 2,
+            "children": [
+                {
+                    "id": 2,
+                    "url": "/layout/system/user",
+                    "name": "用户管理",
+                    "sort": 100,
+                    "type": 2,
+                    "children": [
+                        {
+                            "id": 5,
+                            "url": null,
+                            "name": "创建用户",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 2,
+                            "permission": "system:users:create"
+                        },
+                        {
+                            "id": 6,
+                            "url": null,
+                            "name": "删除用户",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 2,
+                            "permission": "system:users:delete"
+                        },
+                        {
+                            "id": 7,
+                            "url": null,
+                            "name": "修改用户",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 2,
+                            "permission": "system:users:update"
+                        },
+                        {
+                            "id": 8,
+                            "url": null,
+                            "name": "查询用户",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 2,
+                            "permission": "system:users:query"
+                        }
+                    ],
+                    "parentId": 1
+                },
+                {
+                    "id": 3,
+                    "url": "/layout/system/department",
+                    "name": "部门管理",
+                    "sort": 101,
+                    "type": 2,
+                    "children": [
+                        {
+                            "id": 17,
+                            "url": null,
+                            "name": "创建部门",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 3,
+                            "permission": "system:department:create"
+                        },
+                        {
+                            "id": 18,
+                            "url": null,
+                            "name": "删除部门",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 3,
+                            "permission": "system:department:delete"
+                        },
+                        {
+                            "id": 19,
+                            "url": null,
+                            "name": "修改部门",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 3,
+                            "permission": "system:department:update"
+                        },
+                        {
+                            "id": 20,
+                            "url": null,
+                            "name": "查询部门",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 3,
+                            "permission": "system:department:query"
+                        }
+                    ],
+                    "parentId": 1
+                },
+                {
+                    "id": 4,
+                    "url": "/layout/system/menu",
+                    "name": "菜单管理",
+                    "sort": 103,
+                    "type": 2,
+                    "children": [
+                        {
+                            "id": 21,
+                            "url": null,
+                            "name": "创建菜单",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 4,
+                            "permission": "system:menu:create"
+                        },
+                        {
+                            "id": 22,
+                            "url": null,
+                            "name": "删除菜单",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 4,
+                            "permission": "system:menu:delete"
+                        },
+                        {
+                            "id": 23,
+                            "url": null,
+                            "name": "修改菜单",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 4,
+                            "permission": "system:menu:update"
+                        },
+                        {
+                            "id": 24,
+                            "url": null,
+                            "name": "查询菜单",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 4,
+                            "permission": "system:menu:query"
+                        }
+                    ],
+                    "parentId": 1
+                },
+                {
+                    "id": 25,
+                    "url": "/layout/system/role",
+                    "name": "角色管理",
+                    "sort": 102,
+                    "type": 2,
+                    "children": [
+                        {
+                            "id": 26,
+                            "url": null,
+                            "name": "创建角色",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 25,
+                            "permission": "system:role:create"
+                        },
+                        {
+                            "id": 27,
+                            "url": null,
+                            "name": "删除角色",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 25,
+                            "permission": "system:role:delete"
+                        },
+                        {
+                            "id": 28,
+                            "url": null,
+                            "name": "修改角色",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 25,
+                            "permission": "system:role:update"
+                        },
+                        {
+                            "id": 29,
+                            "url": null,
+                            "name": "查询角色",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 25,
+                            "permission": "system:role:query"
+                        }
+                    ],
+                    "parentId": 1
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "订单",
+            "type": 1,
+            "url": "/layout/product",
+            "icon": "el-icon-goods",
+            "sort": 3,
+            "children": [
+                {
+                    "id": 15,
+                    "url": "/layout/product/category",
+                    "name": "商品类别",
+                    "sort": 104,
+                    "type": 2,
+                    "children": [
+                        {
+                            "id": 30,
+                            "url": null,
+                            "name": "创建类别",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 15,
+                            "permission": "system:category:create"
+                        },
+                        {
+                            "id": 31,
+                            "url": null,
+                            "name": "删除类别",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 15,
+                            "permission": "system:category:delete"
+                        },
+                        {
+                            "id": 32,
+                            "url": null,
+                            "name": "修改类别",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 15,
+                            "permission": "system:category:update"
+                        },
+                        {
+                            "id": 33,
+                            "url": null,
+                            "name": "查询类别",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 15,
+                            "permission": "system:category:query"
+                        }
+                    ],
+                    "parentId": 9
+                },
+                {
+                    "id": 16,
+                    "url": "/layout/product/goods",
+                    "name": "商品信息",
+                    "sort": 105,
+                    "type": 2,
+                    "children": [
+                        {
+                            "id": 34,
+                            "url": null,
+                            "name": "创建商品",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 16,
+                            "permission": "system:goods:create"
+                        },
+                        {
+                            "id": 35,
+                            "url": null,
+                            "name": "删除商品",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 16,
+                            "permission": "system:goods:delete"
+                        },
+                        {
+                            "id": 36,
+                            "url": null,
+                            "name": "修改商品",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 16,
+                            "permission": "system:goods:update"
+                        },
+                        {
+                            "id": 37,
+                            "url": null,
+                            "name": "查询商品",
+                            "sort": null,
+                            "type": 3,
+                            "parentId": 16,
+                            "permission": "system:goods:query"
+                        }
+                    ],
+                    "parentId": 9
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "name": "商品营销",
+            "type": 1,
+            "url": "/layout/sell",
+            "icon": "el-icon-monitor",
+            "sort": 4,
+            "children": [
+                {
+                    "id": 42,
+                    "url": "/layout/sell/couponList",
+                    "name": "优惠券列表",
+                    "sort": 108,
+                    "type": 2,
+                    "children": null,
+                    "parentId": 41
+                },
+                {
+                    "id": 43,
+                    "url": "/layout/sell/activity",
+                    "name": "秒杀活动",
+                    "sort": 109,
+                    "type": 2,
+                    "children": null,
+                    "parentId": 41
+                }
+            ]
+        }
+    ]
+}
